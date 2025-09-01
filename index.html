@@ -196,88 +196,88 @@
         // 質問データ
         const questions = [
             {
-                id: 1,
-                title: "生命線の高さ",
-                image: "https://gensparkstorageprodwest.blob.core.windows.net/web-drive/b0ce398a-48d6-4c0f-a035-1d56044bd238/d9bb38c0-a1d3-4e20-b0f4-d3ad0296377b?se=2025-09-01T20%3A21%3A55Z&sp=r&sv=2025-05-05&sr=b&rscd=attachment%3B%20filename%3D%22lifeline_height.jpg%22&sig=SMYB8qrgtAj2rfb2R44ER77L%2BjP09wAFvRVOmU/1YMQ%3D",
-                choices: ["高い", "低い", "普通"],
-                category: "lifeline"
-            },
-            {
-                id: 2,
-                title: "生命線の張り",
-                image: "https://gensparkstorageprodwest.blob.core.windows.net/web-drive/b0ce398a-48d6-4c0f-a035-1d56044bd238/0a312994-84c9-4a86-a3d1-cfdbd8061638?se=2025-09-01T20%3A22%3A00Z&sp=r&sv=2025-05-05&sr=b&rscd=attachment%3B%20filename%3D%22lifeline_curve.jpg%22&sig=cMwVAwtNc9twMJBXQOFCDXXlWcUGFIXPkIc/1pSG8yc%3D",
-                choices: ["大きい", "少ない", "普通"],
-                category: "lifeline"
-            },
-            {
-                id: 3,
-                title: "生命線の向き",
-                image: "https://gensparkstorageprodwest.blob.core.windows.net/web-drive/b0ce398a-48d6-4c0f-a035-1d56044bd238/0548c214-5a04-4ba0-89a2-360d574d410c?se=2025-09-01T20%3A22%3A06Z&sp=r&sv=2025-05-05&sr=b&rscd=attachment%3B%20filename%3D%22lifeline_direction.jpg%22&sig=WZNLl9D4Vd9Wk77iCCJdWMijyMSVUIYH6Bg72xt1EHc%3D",
-                choices: ["小指方面", "親指方面", "手首方面"],
-                category: "lifeline"
-            },
-            {
-                id: 4,
-                title: "頭脳線の長さ",
-                image: "https://gensparkstorageprodwest.blob.core.windows.net/web-drive/b0ce398a-48d6-4c0f-a035-1d56044bd238/a77fb2c7-7f78-4dc0-886b-e11abd07816c?se=2025-09-01T20%3A22%3A11Z&sp=r&sv=2025-05-05&sr=b&rscd=attachment%3B%20filename%3D%22headline_length.jpg%22&sig=q9ZwtHrLfS6SuhDfhkhXWdl3n%2BptbTkwne6cvAOm6A8%3D",
-                choices: ["長い", "短い", "普通"],
-                category: "headline"
-            },
-            {
-                id: 5,
-                title: "頭脳線と感情線の距離",
-                image: "https://gensparkstorageprodwest.blob.core.windows.net/web-drive/b0ce398a-48d6-4c0f-a035-1d56044bd238/18b2043e-7702-4b02-b9bb-f9e4dfb5a322?se=2025-09-01T20%3A22%3A16Z&sp=r&sv=2025-05-05&sr=b&rscd=attachment%3B%20filename%3D%22headline_emotion_distance.jpg%22&sig=nBxvq0t2cHFCxVlhl4MC6i76oHXHZWZCmJ5j3uShKIw%3D",
-                choices: ["近い", "遠い", "くっついている"],
-                category: "headline"
-            },
-            {
-                id: 6,
-                title: "頭脳線と生命線の距離",
-                image: "https://gensparkstorageprodwest.blob.core.windows.net/web-drive/b0ce398a-48d6-4c0f-a035-1d56044bd238/f2cfae67-9e18-4c3e-a35f-38305a461b80?se=2025-09-01T20%3A22%3A21Z&sp=r&sv=2025-05-05&sr=b&rscd=attachment%3B%20filename%3D%22headline_life_distance.jpg%22&sig=WRzRB1RcpW1N6s1sUD2zIXfjO2qouzGvZvCp3BeYKIA%3D",
-                choices: ["離れている", "同じくらい", "くっついている"],
-                category: "headline"
-            },
-            {
-                id: 7,
-                title: "頭脳線の向き",
-                image: "https://gensparkstorageprodwest.blob.core.windows.net/web-drive/b0ce398a-48d6-4c0f-a035-1d56044bd238/cf50aa34-56c8-454f-94d8-6c6893e00853?se=2025-09-01T20%3A22%3A27Z&sp=r&sv=2025-05-05&sr=b&rscd=attachment%3B%20filename%3D%22headline_direction.jpg%22&sig=GQIujDZapiU0vLw6NUqqg3QBtIQ0nCCJujrYZPA59ic%3D",
-                choices: ["まっすぐ", "斜め", "大きく下がる"],
-                category: "headline"
-            },
-            {
-                id: 8,
-                title: "感情線の長さ",
-                image: "https://gensparkstorageprodwest.blob.core.windows.net/web-drive/b0ce398a-48d6-4c0f-a035-1d56044bd238/a8ea98c8-be69-419d-943d-d456b62a2d54?se=2025-09-01T20%3A22%3A33Z&sp=r&sv=2025-05-05&sr=b&rscd=attachment%3B%20filename%3D%22heartline_length.jpg%22&sig=eS/POeKZBKJryFtWKl1JVFirlMcAp8NB36n7xQavkZQ%3D",
-                choices: ["長い", "短い", "普通"],
-                category: "heartline"
-            },
-            {
-                id: 9,
-                title: "感情線の高さ",
-                image: "https://gensparkstorageprodwest.blob.core.windows.net/web-drive/b0ce398a-48d6-4c0f-a035-1d56044bd238/d83a345d-eeca-475e-9a32-4d1356e0bb5d?se=2025-09-01T20%3A22%3A39Z&sp=r&sv=2025-05-05&sr=b&rscd=attachment%3B%20filename%3D%22heartline_height.jpg%22&sig=fzoYmtye1S7HBODrRi3SoL7wacoKYfnsdCA7zmMoxtw%3D",
-                choices: ["高い", "低い", "普通"],
-                category: "heartline"
-            },
-            {
-                id: 10,
-                title: "感情線の向き",
-                image: "https://gensparkstorageprodwest.blob.core.windows.net/web-drive/b0ce398a-48d6-4c0f-a035-1d56044bd238/02437110-1524-4a28-89ae-d94af7c313fa?se=2025-09-01T20%3A22%3A45Z&sp=r&sv=2025-05-05&sr=b&rscd=attachment%3B%20filename%3D%22heartline_direction.jpg%22&sig=a4ZfZ4K8HWQPH%2BwJ76WHb46ajd/iyQFYxlxcwNl2SPI%3D",
-                choices: ["まっすぐ", "上まで上がっている", "中間", "下がっている"],
-                category: "heartline"
-            },
-            {
-                id: 11,
-                title: "手の形",
-                image: "https://gensparkstorageprodwest.blob.core.windows.net/web-drive/b0ce398a-48d6-4c0f-a035-1d56044bd238/08c3c1d1-7fe1-4f52-9b18-98d19fab07ff?se=2025-09-01T20%3A22%3A50Z&sp=r&sv=2025-05-05&sr=b&rscd=attachment%3B%20filename%3D%22hand_shape.jpg%22&sig=tGWyDX0Wi0euHdPsNzusc%2BBj/%2BvjQmZ0YYEE5ZQZRpo%3D",
-                choices: ["正方形", "長方形"],
-                category: "hand"
-            },
-            {
-                id: 12,
-                title: "指の長さ",
-                image: "https://gensparkstorageprodwest.blob.core.windows.net/web-drive/b0ce398a-48d6-4c0f-a035-1d56044bd238/79836885-ffe1-45ac-9610-c7d30ffed529?se=2025-09-01T20%3A22%3A56Z&sp=r&sv=2025-05-05&sr=b&rscd=attachment%3B%20filename%3D%22finger_length.jpg%22&sig=PTlKKscStIpt%2BbE/eIkDLuyJ7GXyd00HkhNASvlCGRw%3D",
-                choices: ["長い", "短い"],
-                category: "finger"
+        id: 1,
+        title: "生命線の高さ",
+        image: "lifeline_height.jpg",
+        choices: ["高い", "低い", "普通"],
+        category: "lifeline"
+    },
+    {
+        id: 2,
+        title: "生命線の張り",
+        image: "lifeline_curve.jpg",
+        choices: ["大きい", "少ない", "普通"],
+        category: "lifeline"
+    },
+    {
+        id: 3,
+        title: "生命線の向き",
+        image: "lifeline_direction.jpg",
+        choices: ["小指方面", "親指方面", "手首方面"],
+        category: "lifeline"
+    },
+    {
+        id: 4,
+        title: "頭脳線の長さ",
+        image: "headline_length.jpg",
+        choices: ["長い", "短い", "普通"],
+        category: "headline"
+    },
+    {
+        id: 5,
+        title: "頭脳線と感情線の距離",
+        image: "headline_emotion_distance.jpg",
+        choices: ["近い", "遠い", "くっついている"],
+        category: "headline"
+    },
+    {
+        id: 6,
+        title: "頭脳線と生命線の距離",
+        image: "headline_life_distance.jpg",
+        choices: ["離れている", "同じくらい", "くっついている"],
+        category: "headline"
+    },
+    {
+        id: 7,
+        title: "頭脳線の向き",
+        image: "headline_direction.jpg",
+        choices: ["まっすぐ", "斜め", "大きく下がる"],
+        category: "headline"
+    },
+    {
+        id: 8,
+        title: "感情線の長さ",
+        image: "heartline_length.jpg",
+        choices: ["長い", "短い", "普通"],
+        category: "heartline"
+    },
+    {
+        id: 9,
+        title: "感情線の高さ",
+        image: "heartline_height.jpg",
+        choices: ["高い", "低い", "普通"],
+        category: "heartline"
+    },
+    {
+        id: 10,
+        title: "感情線の向き",
+        image: "heartline_direction.jpg",
+        choices: ["まっすぐ", "上まで上がっている", "中間", "下がっている"],
+        category: "heartline"
+    },
+    {
+        id: 11,
+        title: "手の形",
+        image: "hand_shape.jpg",
+        choices: ["正方形", "長方形"],
+        category: "hand"
+    },
+    {
+        id: 12,
+        title: "指の長さ",
+        image: "finger_length.jpg",
+        choices: ["長い", "短い"],
+        category: "finger"
             }
         ];
 
